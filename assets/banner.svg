@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060f"/><stop offset="1" stop-color="#0b1030"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity=".95"/>
+      <stop offset=".55" stop-color="#2d6bff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#2d6bff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="txt" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9db8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <g fill="#4d7cff" opacity=".35">
+    <circle cx="60" cy="50" r="2"/><circle cx="140" cy="260" r="2"/><circle cx="330" cy="40" r="1.5"/>
+    <circle cx="520" cy="280" r="2"/><circle cx="700" cy="60" r="1.5"/><circle cx="880" cy="290" r="2"/>
+    <circle cx="1100" cy="40" r="2"/><circle cx="1000" cy="150" r="1.5"/><circle cx="420" cy="150" r="1.5"/>
+  </g>
+  <g transform="translate(930 160)">
+    <circle r="150" fill="url(#orb)"><animate attributeName="r" values="140;160;140" dur="6s" repeatCount="indefinite"/></circle>
+    <circle r="95" fill="none" stroke="#7c9bff" stroke-opacity=".5" stroke-dasharray="2 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/></circle>
+    <circle r="130" fill="none" stroke="#a78bff" stroke-opacity=".35" stroke-dasharray="1 12">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="60s" repeatCount="indefinite"/></circle>
+    <circle r="14" fill="#fff"/>
+  </g>
+  <text x="70" y="120" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#7c9bff" letter-spacing="6">HELLO, I'M</text>
+  <text x="70" y="195" font-family="Helvetica, Arial, sans-serif" font-size="76" font-weight="700" fill="url(#txt)">Aruna Dey</text>
+  <text x="70" y="248" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#b7c3ef">Building at <tspan fill="#fff" font-weight="700">dotsin.ai</tspan> &amp; <tspan fill="#fff" font-weight="700">Assessli</tspan></text>
+</svg>
